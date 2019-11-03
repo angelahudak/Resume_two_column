@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Angela Hudak 10/2019 %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+
+%Layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyphenat}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+%Colors
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkBlue}{HTML}{1c304b}
+\definecolor{LightBlue}{HTML}{2079c7}
+\definecolor{Purple}{HTML}{4e5266}
+\definecolor{DarkPurple}{HTML}{1E2037}
+\definecolor{LightPurple}{HTML}{656dba}
+\definecolor{AccentGreen}{HTML}{339966}
+\definecolor{AcePurple}{HTML}{800080}
+\definecolor{DarkerPurple}{HTML}{5b005b}
+\definecolor{SomeBlue}{HTML}{4286f4}
+\definecolor{OliveGreen}{HTML}{556b2f}
+\definecolor{ForestGreen}{HTML}{014421}
+\definecolor{Green}{HTML}{008000}
+\definecolor{NavyBlue}{HTML}{000080}
+
+\colorlet{heading}{NavyBlue}
+%\colorlet{heading-line}{DarkBlue}
+\colorlet{accent}{DarkBlue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+%
+
+\begin{document}
+\name{Angela Hudak}
+\tagline{Seeking co-op for Summer and/or Fall for 2020}
+\photo{6cm}{}
+\personalinfo{
+  \begin{flushright}
+  \normalsize
+  \email{\href{mailto: angelahudak@mail.rit.edu} {angelahudak@mail.rit.edu}}
+  %\location{Rochester, NY}
+  \phone{\href{tel: 17328505097}{(732) 850-5097}}
+  \linkedin{\href{linkedin.com/in/angelahudak}{angelahudak}}
+  \github{\href{github.com/angelahudak}{angelahudak}}
+  \end{flushright}
+}
+
+%
+
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[sideBar]{Education}
+
+\cvevent{B.Sc. in Computer Engineering}{Rochester Institute of Technology}{August 2018 -- May 2023}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[]{Projects}
+
+%%%%%%%%%%%%%
+%Project 1
+%%%%%%%%%%%%%
+
+\cvevent{SPEX Rover Project}{Electronics Team Member}{January 2019 -- April 2019}{}
+
+\begin{itemize}
+  \item The Rover is a team project that is a part of the SPEX Club.
+  \item Responsibility was to connect the raspberry pi 3B+ to the controller and teaching others how to solder parts together.
+  
+\end{itemize}
+\divider
+%
+
+%%%%%%%%%%%%%
+%Project 2
+%%%%%%%%%%%%%
+
+\cvevent{3D Printed Rotary and Gas Engine}{Imagine RIT Project}{January 2019 -- April 2019}{}
+
+\begin{itemize}
+  \item A sub-project for Imagine RIT, the Computer Science House created a futuristic car to display at the event.
+  \item Taught other members about 3D printers and how to use 3D files. 
+  \item Printed and assembled the interactive rotary engine.
+  
+\end{itemize}
+\divider
+%
+%%%%%%%%%%%%%
+%Project 3
+%%%%%%%%%%%%%
+
+\cvevent{CSH LED Sign}{Python }{August 2019 -- Present}{}
+
+\begin{itemize}
+  \item The CSH LED Sign is a hand-built light box with geometric triangles cut out of it. 
+  \item Strips of individually addressable LEDs respond to a raspberry pi 3B+ in order to shift colors and utilize an iButton reader to read an iButton and display the colors picked on an individuals webapp.
+
+\end{itemize}
+
+%
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \cvsection[]{Experience}
+
+% %%%%%%%%%%%%%
+% %Experience 1
+% %%%%%%%%%%%%%
+
+% \cvevent{Expo}{Chesapeake Tavern}{April 2016 -- August 2017}{Long Valley, New Jersey}
+
+% \begin{itemize}
+% 	\item Communicated with chefs and servers to provide quality food services to customers.
+% \end{itemize}
+
+% %%%%%%%%%%%%%
+% %Experience 2
+% %%%%%%%%%%%%%
+
+% \cvevent{Head Cashier}{Pet Supplies Plus}{June 2018 -- August 2018}{Wall Township, New Jersey}
+
+% \begin{itemize}
+% 	\item --
+% \end{itemize}
+% %
+
+\cvsection[]{Organizations}
+
+%%%%%%%%%%%%%
+%Organizations 1
+%%%%%%%%%%%%%
+
+\cvevent{House Improvements Director \& 3D Print Administrator}{Computer Science House  (CSH)}{August 2018 -- present}{\href{https://csh.rit.edu}{csh.rit.edu}}
+
+\begin{itemize}
+	\item A living and learning community with a helpful environment that emphasizes hands-on learning and projects outside of the classroom. As a 3DA, I assist and educate other members on how to print 3D files effectively and taking care of 3D printers. As House Improvements Director, I handle the Project Room and all house related auditions and improvements.
+\end{itemize}
+
+%
+%%%%%%%%%%%%%
+%Organizations 2
+%%%%%%%%%%%%%
+
+\cvevent{Rover Team Member}{Spacial Exploration Club  (SPEX)}{January 2019 -- present}{\href{https://spex.rit.edu}{spex.rit.edu}}
+
+\begin{itemize}
+	\item A community of students passionate about space and spatial investigation. Groups of members work on projects and conduct research space related technologies. I am currently apart of the Rover project working on the electronics team for the hardware and software of the Rover.
+\end{itemize}
+
+%
+
+\end{document}
